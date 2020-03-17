@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+body,
+html,
+#root {
+  height: 100%;
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+}
+#app {
+    height: 100%;
+}
+body {
+    background-image: url(./white\ geometric\ background\ 0302.jpg);
+    margin-top: 0px;
+}
+h1 {
+    font-size: 3.6rem;
+}
+h3 {
+    font-size: 2.8rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid grey;
+}
+h5 {
+    font-size: 2.2rem;
+    padding-bottom: 0.5rem;
+}
+p {
+    font-size: 2rem;
+}
+br {
+    line-height: 150%;
+}
+@media only screen and (max-width: 320px) {
+    body {
+        overflow: scroll;
+    }
+}

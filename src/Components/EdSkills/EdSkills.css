@@ -1,0 +1,74 @@
+.edSkills {
+    margin: 3rem auto;
+    height: 40%;
+    display: flex;
+}
+.school {
+    border: 1px solid lightblue;
+    border-radius: 5%;
+    margin: 1.5rem 3rem;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+.languages {
+    border: 1px solid lightblue;
+    border-radius: 5%;
+    margin: 1.5rem 3rem;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+.languages-list {
+    font-size: 2rem;
+}
+.languages-list li {
+    margin-bottom: 1rem;
+}
+.programming {
+    border: 1px solid lightblue;
+    border-radius: 5%;
+    margin: 1.5rem 3rem;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+.programming-list {
+    font-size: 2rem;
+}
+.programming-list li {
+    margin-bottom: 1rem;
+}
+.media {
+    border: 1px solid lightblue;
+    border-radius: 5%;
+    margin: 1.5rem 3rem;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+.media-list {
+    font-size: 2rem;
+}
+.media-list li {
+    margin-bottom: 1rem;
+}
+.strong {
+    font-weight: bold;
+}
+@media only screen and (max-width: 320px) {
+    .edSkills {
+        display: block;
+    }
+    .school, .languages, .programming, .media {
+        width: 70%;
+        height: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: auto;
+    }
+    .languages-list, .programming-list, .media-list {
+        list-style: none;
+    }
+}

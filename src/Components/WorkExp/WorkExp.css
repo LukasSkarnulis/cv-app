@@ -1,0 +1,10 @@
+.WorkExp {
+    margin-top: 3rem;
+    margin-left: 18%;
+}
+.WorkExp div {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    width: 82%;
+    border-bottom: 1px solid grey;
+}

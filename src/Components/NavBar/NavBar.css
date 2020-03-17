@@ -1,0 +1,27 @@
+nav {
+    height: 100%;
+    width: 15%;
+    text-align: left;
+    float: left;
+    background-color: rgba(135, 132, 145, 0.1);
+}
+.nav-list {
+    list-style: none;
+    margin-top: 30%;
+    opacity: 1;
+}
+.nav-list-item {
+    font-size: 2rem;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: black;
+}
+.nav-list-item:hover {
+    background-color: rgba(255, 0, 0, 0.7);  
+}
+@media only screen and (max-width: 320px) {
+    nav {
+        display: none;
+    }
+}

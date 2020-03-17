@@ -1,0 +1,41 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+}
+.projects-text {
+    font-size: 2.4rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+.card {
+    border: 1px solid lightblue;
+    border-radius: 5%;
+    margin: 1.5rem 3rem;
+    text-align: center;
+    width: 20%;
+    display: inline-block;
+}
+.card-image {
+    height: 65%;
+    width: 98%;
+    border-radius: 3%;
+}
+@media only screen and (max-width: 320px) {
+    .projects-text {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .projects {
+        display: block;
+        margin-left: 0;
+    }
+    .card {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
