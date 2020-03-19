@@ -11,6 +11,7 @@ class Header extends React.Component {
                 <li><span className="header-intro">Name: </span>Lukas Škarnulis</li>
                 <li><span className="header-intro">Date of Birth: </span>1995/08/09</li>
                 <li><span className="header-intro">Location: </span>Kaunas, Lithuania</li>
+                <li><span className="header-intro">Phone: </span>+37061334709</li>
                 <li><span className="header-intro">Email: </span>lukas.skarnulis1@gmail.com</li>
             </ul>
             </div>

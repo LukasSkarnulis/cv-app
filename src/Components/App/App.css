@@ -35,7 +35,12 @@ p {
 br {
     line-height: 150%;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 1024px) {
+    body {
+        overflow: scroll;
+    }
+}
+@media only screen and (max-height: 850px) {
     body {
         overflow: scroll;
     }

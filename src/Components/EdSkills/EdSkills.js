@@ -6,13 +6,13 @@ class EdSkills extends React.Component {
         return (
             <div className="edSkills">
                 <div className="school">
-                    <h3>Education</h3><br />
+                    <h3>Education</h3>
                     <p>Bachelor of <strong>New Media Language / Marketing</strong> – 2018<br /><br />
 <strong>Kaunas University of Technology</strong> / Faculty of Social Sciences, Arts and Humanities
 </p>
                 </div>
                 <div className="languages">
-                    <h3>Languages</h3><br />
+                    <h3>Languages</h3>
                     <ul className="languages-list">
                         <li>Lithuanian (native)</li>
                         <li>English (C1)</li>
@@ -20,7 +20,7 @@ class EdSkills extends React.Component {
                     </ul>
                 </div>
                 <div className="programming">
-                    <h3>Programming</h3><br />
+                    <h3>Programming Basics</h3>
                     <ul className="programming-list">
                         <li>HTML5</li>
                         <li>CSS</li>
@@ -29,7 +29,7 @@ class EdSkills extends React.Component {
                     </ul>
                 </div>
                 <div className="media">
-                    <h3>Media Creation</h3><br />
+                    <h3>Media Creation</h3>
                     <ul className="media-list">
                         <li>Adobe Premiere</li>
                         <li>Adobe Photoshop</li>

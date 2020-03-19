@@ -1,7 +1,9 @@
 .edSkills {
-    margin: 3rem auto;
+    margin-left: 15%;
+    margin-top: 3rem;
     height: 40%;
     display: flex;
+    justify-content: center;
 }
 .school {
     border: 1px solid lightblue;
@@ -58,17 +60,82 @@
 }
 @media only screen and (max-width: 320px) {
     .edSkills {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        height: auto;
     }
     .school, .languages, .programming, .media {
-        width: 70%;
-        height: 100%;
         display: block;
+        width: 70%;
+        height: auto;
+        font-size: 1.5rem;
         margin-left: auto;
         margin-right: auto;
-        overflow: auto;
+    }
+    .school p {
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+    }
+    .school, h3 {
+        font-size: 2.5rem;
+    }
+    .languages h3 {
+        font-size: 2.5rem;
+    }
+    .programming h3 {
+        font-size: 2.5rem;
+    }
+    .media {
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (min-width: 321px) and (max-width: 600px) {
+    .edSkills {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-left: 0;
+    }
+    .school, .languages, .programming, .media {
+        width: 50%;
+        height: auto;
+        font-size: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
     }
     .languages-list, .programming-list, .media-list {
         list-style: none;
+        margin-top: 0.5rem;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 720px) {
+    .edSkills {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-left: 15%;
+    }
+    .school, .languages, .programming, .media {
+        width: 50%;
+        height: auto;
+        font-size: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (min-width: 721px) and (max-width: 1300px) {
+    .edSkills {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin-left: 15%;
+    }
+    .school, .languages, .programming, .media {
+        display: block;
+        width: 40%;
+        height: auto;
+        font-size: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

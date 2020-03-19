@@ -8,3 +8,11 @@
     width: 82%;
     border-bottom: 1px solid grey;
 }
+@media only screen and (max-width: 320px) {
+    .work-box h5 {
+        font-size: 1.8rem;
+    }
+    .work-box p {
+        font-size: 1.5rem;
+    }
+}

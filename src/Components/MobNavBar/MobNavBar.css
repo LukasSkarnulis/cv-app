@@ -16,7 +16,7 @@
 .mobNavBar-button:hover {
     background-color: rgb(255, 0, 0);
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 600px) {
     .mobNavBar {
         display: block;
     }
