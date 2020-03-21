@@ -8,6 +8,7 @@
     text-align: center;
     margin-top: 3rem;
     margin-left: 15%;
+    width: 80%;
 }
 .card {
     border: 1px solid lightblue;
@@ -57,7 +58,6 @@
     .projects-text {
         margin-left: auto;
         margin-right: auto;
-        width: 80%;
     }
     .card {
         width: 70%;
@@ -73,7 +73,6 @@
     }
     .projects-text {
         margin-left: 15%;
-        width: 80%;
     }
     .card {
         width: 70%;
